@@ -14,8 +14,9 @@ phonetics.metaphone(source)
 phonetics.dmetaphone(source)
   Use the double methaphone algorithm to create the phonetic key of the *source string.
 
-  Example:
-  --------
+
+Example
+-------
 
 .. code-block:: python
 
@@ -23,8 +24,9 @@ phonetics.dmetaphone(source)
   >>> phonetics.dmetaphone('Danger')
   ('TNJR', 'TNKR')
 
-  Tests
-  --------
+
+Tests
+-----
 
 By `Duncan McGreggor <https://github.com/oubiwann>`_
 
