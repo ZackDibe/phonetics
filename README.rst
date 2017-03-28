@@ -15,6 +15,9 @@ phonetics.dmetaphone(source)
   Use the double methaphone algorithm to create the phonetic key of the *source string.
 
 
+Based on `Lawrence Philips' Metaphone Algorithm <http://aspell.net/metaphone/>`_
+
+
 Example
 -------
 
