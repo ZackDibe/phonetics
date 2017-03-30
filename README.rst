@@ -12,16 +12,16 @@ The phonetics module computes the phonetic key of a string using different algor
 The phonetics module defines the following function:
 
 phonetics.soundex(source[, size=4])
-  Use the soundex algorithm to create the phonetic key of the *source string.
+  Use the soundex algorithm to create the phonetic key of the *source* string.
 
 phonetics.nysiis(source)
-  Use the New York State Identification and Intelligence System to create the phonetic key of the *source string.
+  Use the New York State Identification and Intelligence System to create the phonetic key of the *source* string.
 
 phonetics.metaphone(source)
-  Use the metaphone algorithm to create the phonetic key of the *source string.
+  Use the metaphone algorithm to create the phonetic key of the *source* string.
 
 phonetics.dmetaphone(source)
-  Use the double methaphone algorithm to create the phonetic key of the *source string.
+  Use the double methaphone algorithm to create the phonetic key of the *source* string.
 
 
 Based on `Lawrence Philips' Metaphone Algorithm <http://aspell.net/metaphone/>`_
@@ -31,7 +31,7 @@ Installation
 
 .. code-block:: shell
 
-  $ pip install phonetics
+    $ pip install phonetics
 
 
 Usage
@@ -39,9 +39,9 @@ Usage
 
 .. code-block:: python
 
-  >>> import phonetics
-  >>> phonetics.dmetaphone('Danger')
-  ('TNJR', 'TNKR')
+    >>> import phonetics
+    >>> phonetics.dmetaphone('Danger')
+    ('TNJR', 'TNKR')
 
 
 Tests
@@ -51,6 +51,4 @@ By `Duncan McGreggor <https://github.com/oubiwann>`_
 
 .. code-block:: shell
 
-  $ python -m unittest discover phonetics/tests/ -v
-
-
+    $ python -m unittest discover phonetics/tests/ -v
