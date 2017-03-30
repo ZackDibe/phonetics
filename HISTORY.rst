@@ -33,3 +33,10 @@ Release History
 **v1.0.2**
 
 - Fix setup.py package arg
+
+1.0.3 (2017-03-30)
++++++++++++++++++++
+
+**v1.0.3**
+
+- Fix RST syntax in README
