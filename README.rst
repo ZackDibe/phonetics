@@ -1,4 +1,13 @@
+=========
+Phonetics
+=========
+
 The phonetics module computes the phonetic key of a string using different algorithms.
+
+ * Soundex
+ * NYSISS
+ * Metaphone
+ * Double Metaphone
 
 The phonetics module defines the following function:
 
@@ -17,9 +26,16 @@ phonetics.dmetaphone(source)
 
 Based on `Lawrence Philips' Metaphone Algorithm <http://aspell.net/metaphone/>`_
 
+Installation
+************
 
-Example
--------
+.. code-block:: shell
+
+  $ pip install phonetics
+
+
+Usage
+*****
 
 .. code-block:: python
 
@@ -29,10 +45,12 @@ Example
 
 
 Tests
------
+*****
 
 By `Duncan McGreggor <https://github.com/oubiwann>`_
 
 .. code-block:: shell
 
   $ python -m unittest discover phonetics/tests/ -v
+
+

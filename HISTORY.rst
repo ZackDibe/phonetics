@@ -18,3 +18,18 @@ Release History
 - Refactor dmetaphone
 - Add NYSIIS tests
 - Add Soundex tests
+
+1.0.1 (2017-03-30)
++++++++++++++++++++
+
+**v1.0.1**
+
+- Fix README syntax
+- Fix sourcefile tarball
+
+1.0.2 (2017-03-30)
++++++++++++++++++++
+
+**v1.0.2**
+
+- Fix setup.py package arg

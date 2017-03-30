@@ -1,5 +1,5 @@
 
-from setuptools import setup
+from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
@@ -11,7 +11,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='phonetics',
 
-    version='1.0.0',
+    version='1.0.2',
 
     description='',
     long_description=long_description,
@@ -43,5 +43,5 @@ setup(
 
     keywords='phonetics metaphone soundex indexing search fuzzy',
 
-    py_modules=["phonetics"],
+    packages=find_packages(exclude=['contrib', 'docs', 'tests'])
 )
