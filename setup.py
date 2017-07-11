@@ -3,18 +3,20 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-here = path.abspath(path.dirname(__file__))
+VERSION = '1.0.3'
 
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
+HERE = path.abspath(path.dirname(__file__))
+
+with open(path.join(HERE, 'README.rst'), encoding='utf-8') as f:
+    LONG_DESCRIPTION = f.read()
 
 setup(
     name='phonetics',
 
-    version='1.0.3',
+    version=VERSION,
 
-    description='',
-    long_description=long_description,
+    description='Compute phonetic key of strings for indexing or fuzzy matching',
+    long_description=LONG_DESCRIPTION,
 
     url='https://github.com/Zack--/phonetics',
 
