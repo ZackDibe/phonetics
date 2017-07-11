@@ -40,3 +40,10 @@ Release History
 **v1.0.3**
 
 - Fix RST syntax in README
+
+1.0.4 (2017-07-11)
++++++++++++++++++++
+
+**v1.0.4**
+
+- Update README with better test instructions, usage, and overall structure
