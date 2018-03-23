@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import utils
+from . import utils
 
 __ALL__ = [
     'metaphone',
