@@ -370,6 +370,9 @@ def dmetaphone(source):
         func = globals().get('process_{}'.format(source[index]))
         if func:
             result = func(source, index, last, slavogermanic)
+            if not result:
+                index += 1
+                continue
             if result[0]:
                 primary += result[0]
             if result[1]:
