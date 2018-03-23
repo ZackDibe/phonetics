@@ -252,6 +252,12 @@ class MetaphoneTestCase(unittest.TestCase):
         self.assertEquals(result, ("KMPL", ""))
         result = phonetics.dmetaphone("raspberry")
         self.assertEquals(result, ("RSPR", ""))
+        result = phonetics.dmetaphone("wright")
+        self.assertEquals(result, ("RT", ""))
+        result = phonetics.dmetaphone("right")
+        self.assertEquals(result, ("RT", ""))
+        result = phonetics.dmetaphone("left")
+        self.assertEquals(result, ("LFT", ""))
 
     def test_th_words(self):
         result = phonetics.dmetaphone("Thomas")
